@@ -31,6 +31,7 @@
   },
   "homepage": "https://github.com/ericelliott/neurolib#readme",
   "devDependencies": {
+    "eslint": "3.0.0",
     "iron-node": "3.0.7",
     "node-inspector": "0.12.8",
     "watch": "0.19.1"
