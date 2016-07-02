@@ -1,0 +1,40 @@
+{
+  "name": "neurolib",
+  "version": "1.0.0",
+  "description": "Neuron simulation tools",
+  "main": "source/index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "lint": "eslint source",
+    "pretest": "npm run -s lint",
+    "test": "node source/test/index.js",
+    "jittertest": "node source/test/jittertest.js",
+    "watch": "watch 'clear && npm run -s test' source",
+    "debug-test": "node-nightly --inspect --debug-brk source/test/create-node.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ericelliott/neurolib.git"
+  },
+  "keywords": [
+    "neural",
+    "network",
+    "neuron",
+    "ai"
+  ],
+  "author": "Eric Elliott",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ericelliott/neurolib/issues"
+  },
+  "homepage": "https://github.com/ericelliott/neurolib#readme",
+  "devDependencies": {
+    "eslint": "3.0.0",
+    "iron-node": "3.0.7",
+    "node-inspector": "0.12.8",
+    "tape": "4.6.0",
+    "watch": "0.19.1"
+  }
+}
