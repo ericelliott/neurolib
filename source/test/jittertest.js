@@ -1,6 +1,6 @@
 const test = require('tape');
 
-const createClock = require('../clock');
+const createClock = require('../create-clock');
 
 test('clock tick count', assert => {
   const msg = 'should tick the correct number of times';
