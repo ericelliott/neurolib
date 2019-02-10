@@ -2,6 +2,8 @@
 
 Neuron emulation tools
 
+## Status - DEPRECATED due to lack of interest
+
 ## What is this?
 
 A collection of utilities that might be useful in the simulation or emulation of neurons for an artificial neural network.
